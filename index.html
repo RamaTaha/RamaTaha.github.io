@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p id="hi">hiii</p>
-    <p id="bye">bye</p>
+    <hr id="hl" />
+    <hr id="vl" />
+
+    <p id="counter"></p>
+
+    <button
+      id="button"
+      type="button"
+      onclick="{ event.stopPropagation(); changeMode();}"
+    >
+      Change Orientation
+    </button>
+
     <script src="index.js"></script>
   </body>
 </html>
