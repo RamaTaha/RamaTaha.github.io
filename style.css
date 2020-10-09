@@ -1,4 +1,5 @@
-#counter {
+#counter,
+#timer {
   font-size: 30px;
   color: purple;
 }
