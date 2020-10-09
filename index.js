@@ -67,6 +67,7 @@ document.addEventListener("click", (e) => {
   }
 });
 
+// Change mode
 const changeMode = () => {
   timeLeft = 9;
   clearInterval(interval);
